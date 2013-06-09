@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tip Calculator</string>
+    
+    <string name="bill_amount_before_tax"></string>
+    <string name="bill_amount"></string>
+    
+    <string name="total">Total</string>
+    <string name="total_per_person">Total per person</string>
+    <string name="total_tip">Total tip</string>
+    <string name="tip_per_person">Tip per person</string>
+
+</resources>
