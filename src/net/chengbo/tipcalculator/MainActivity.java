@@ -20,7 +20,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends Activity implements OnClickListener {
+public class MainActivity extends Activity {
 
     private EditText m_txtAmountAfterTax;
     private EditText m_txtAmountBeforeTax;
@@ -363,11 +363,6 @@ public class MainActivity extends Activity implements OnClickListener {
 
         m_txtTaxRate.setText(String.valueOf((int) (m_taxRate * 100)));
         m_txtTipPercentage.setText(String.valueOf((int) (m_tipPercentage * 100)));
-    }
-
-    @Override
-    public void onClick(View v) {
-        tryCalculate();
     }
 
     private void tryToPromptUserToRateApp() {
