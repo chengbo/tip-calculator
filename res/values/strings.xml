@@ -11,4 +11,12 @@
     <string name="total_tip">Total tip</string>
     <string name="tip_per_person">Tip per person</string>
 
+    <string name="crash_notif_text">Please click here to help fix the issue.</string>
+    <string name="crash_dialog_title">Tip Calculator has crashed</string>
+    <string name="crash_dialog_text">An unexpected error occurred forcing the
+    application to stop. Please help me fix this by sending me error data by email,
+    all you have to do is click OK.</string>
+    <string name="crash_dialog_comment_prompt">You might add your comments about the problem below:</string>
+    <string name="crash_dialog_ok_toast">Thank you !</string>
+
 </resources>
